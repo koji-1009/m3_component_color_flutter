@@ -242,6 +242,7 @@ class BottomThemeColors extends ConsumerWidget {
               SizedBox(
                 height: 150,
                 child: ListView.separated(
+                  primary: false,
                   scrollDirection: Axis.horizontal,
                   itemCount: items.length,
                   itemBuilder: (context, index) => ColorBox(
