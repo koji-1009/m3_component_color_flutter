@@ -18,7 +18,7 @@ jobs:
           channel: 'stable'
           cache: true
       - run: flutter pub get
-      - run: flutter build web --base-href "/m3_componet_colors_flutter/" 
+      - run: flutter build web --base-href "/m3_component_color_flutter/" 
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
